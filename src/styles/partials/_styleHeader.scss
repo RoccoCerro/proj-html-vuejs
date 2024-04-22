@@ -1,0 +1,12 @@
+.page-header {
+  background-color: black;  
+  color: white;
+
+  .row.header{
+    justify-content: space-between;
+  }
+
+  .row.connections{
+    gap: 15px;
+  }
+}

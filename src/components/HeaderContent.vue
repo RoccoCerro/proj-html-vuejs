@@ -1,19 +1,19 @@
 <template>
-  <header>
+  <header class="page-header">
     <div class="container">
-      <div class="row">
-        <div class="col">
-          logo
+      <div class="row header">
+        <div class="col brand">
+          <a href=""><img :src="store.getImagePath(store.navBar[0].imgSrc)" alt="brand"></a>
         </div>
         <div class="col">
-          <ul>
-            <li>Home</li>
-            <li>Game</li>
-            <li>Pin</li>
-            <li>Pun</li>
+          <ul class="row connections">
+            <li class="col">Home</li>
+            <li class="col">Game</li>
+            <li class="col">trama</li>
+            <li class="col">Pun</li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col cart">
           <a href="#">carrello</a>
           <button>LIVE STREAMING</button>
         </div>
@@ -30,10 +30,21 @@
       return{
         store
       }
+    },
+
+    methods: {
+      
+    },
+
+    created(){
+      console.log("store" , this.store)
+      console.log(this.store.navBar[0].imgSrc)
     }
+
   }
 </script>
 
 <style lang="scss" scoped>
+  @use '../styles/partials/styleHeader.scss' as *;
 
 </style>

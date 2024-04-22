@@ -5,7 +5,7 @@ export const store = reactive({
     {
       id: 0,
       name: 'logo',
-      imgSrc: './assets/img/logo.png',
+      imgSrc: 'logo.png',
     },
     {
       id: 1,
@@ -31,5 +31,10 @@ export const store = reactive({
       id: 6,
       name: 'Contact'
     },
-  ]
+  ],
+
+  getImagePath: function (img) {
+    return new URL(`./assets/img/${img}`, import.meta.url).href
+  }
+
 })
