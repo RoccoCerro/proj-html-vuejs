@@ -1,2 +1,9 @@
 @use './partials/reset.scss' as *;
 @use './partials/layout.scss' as *;
+
+body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
