@@ -1,12 +1,13 @@
 import { reactive } from 'vue'
 
 export const store = reactive({
+  brandSrc: 'logo.png',
+  iconCartSrc: 'cart-icon.png',
+  buttonHeader: {
+    name: "LIVE STREAMING"
+  },
+
 	navBar:[
-    {
-      id: 0,
-      name: 'logo',
-      imgSrc: 'logo.png',
-    },
     {
       id: 1,
       name: 'Home',

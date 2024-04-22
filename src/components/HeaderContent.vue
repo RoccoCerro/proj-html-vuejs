@@ -1,21 +1,24 @@
 <template>
   <header class="page-header">
     <div class="container">
-      <div class="row header">
+      <div class="row">
         <div class="col brand">
-          <a href=""><img :src="store.getImagePath(store.navBar[0].imgSrc)" alt="brand"></a>
+          <a href="#"><img :src="store.getImagePath(store.brandSrc)" alt="brand"></a>
         </div>
-        <div class="col">
-          <ul class="row connections">
-            <li class="col">Home</li>
-            <li class="col">Game</li>
-            <li class="col">trama</li>
-            <li class="col">Pun</li>
+        <div class="col connections">
+          <ul class="row">
+            <li class="col" v-for="link in store.navBar"><a href="">{{ link.name }}</a></li>
           </ul>
         </div>
         <div class="col cart">
-          <a href="#">carrello</a>
-          <button>LIVE STREAMING</button>
+          <div class="row">
+            <div class="col">
+              <img :src="store.getImagePath(store.iconCartSrc)" alt="Cart">
+            </div>
+            <div class="col button">
+              <button>{{store.buttonHeader.name}}</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -38,7 +41,7 @@
 
     created(){
       console.log("store" , this.store)
-      console.log(this.store.navBar[0].imgSrc)
+      console.log(this.store.iconCartSrc)
     }
 
   }
