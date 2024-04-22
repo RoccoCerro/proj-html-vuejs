@@ -1,15 +1,16 @@
 <template>
-
-    <HeaderContent />
-
+  <HeaderContent />
+  <MainContent />
 </template>
 
 <script>
   import HeaderContent from './components/HeaderContent.vue';
+  import MainContent from './components/MainContent.vue';
 
   export default {
     components:{ 
-      HeaderContent
+      HeaderContent,
+      MainContent
     }
   }
 </script>
