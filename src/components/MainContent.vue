@@ -1,15 +1,18 @@
 <template>
   <main>
     <HeroSection />
+    <BattleFieldSection />
   </main>
 </template>
 
 <script>
   import HeroSection from './HeroSection.vue'
+  import BattleFieldSection from './BattleFieldSection.vue';
 
   export default {
     components: {
-      HeroSection
+      HeroSection,
+      BattleFieldSection
     }
   }
 </script>
