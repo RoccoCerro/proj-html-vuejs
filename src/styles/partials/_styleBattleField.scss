@@ -1,0 +1,22 @@
+@use './variables.scss' as *;
+
+.battle-field {
+  width: 100%;
+  height: 755px;
+  background-color: black;
+
+  .container, .row, img{
+    height: 100%;
+  }
+
+  .row.content {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .row.column {
+    flex-direction: column;
+  }
+
+}
+
