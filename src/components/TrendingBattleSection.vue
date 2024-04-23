@@ -13,7 +13,13 @@
           <div class="col-6">
             <div class="card">
               <div class="card-player">
-
+                <div class="row">
+                  <div class="col">
+                    <img src="" alt="">
+                  </div>
+                  <div class="col"></div>
+                  <div class="col"></div>
+                </div>
               </div>
               <div class="match-date">
 
