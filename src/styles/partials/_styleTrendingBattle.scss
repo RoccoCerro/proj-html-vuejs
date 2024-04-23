@@ -25,10 +25,26 @@
     }
   }
 
+  .match {
+
+    .col-6{
+
+      .card {
+        background-color: $background-color-card_match; 
+        padding: 20px;
+        border-radius: 8px;
+
+        .channels {
+    
+          img {
+            width: 50px;
+          }
+        }
+      }
+    }
 
 
 
 
-
-
+  }
 }

@@ -15,17 +15,25 @@
               <div class="card-player">
                 <div class="row">
                   <div class="col">
-                    <img src="" alt="">
+                    <img src="../assets/img/game-img-1.png" alt="">
                   </div>
-                  <div class="col"></div>
-                  <div class="col"></div>
+                  <div class="col"><img src="../assets/img/verus-icon.png" alt=""></div>
+                  <div class="col"><img src="../assets/img/game-img-2.png" alt=""></div>
                 </div>
               </div>
               <div class="match-date">
-
+                <h4>Call Of Deauty</h4>
+                <div>December 25, 2022 4:00 PM</div>
               </div>
-              <div class="channels">
-
+              <div class="row channels">
+                <div class="col">
+                  <img src="../assets/img/youtube-icon.png" alt="">
+                  <span>Youtube</span>
+                </div>
+                <div class="col">
+                  <img src="../assets/img/twitch-icon.png" alt="">
+                  <span>Twitch</span>
+                </div>
               </div>
             </div>
           </div>
