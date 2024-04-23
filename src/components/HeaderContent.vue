@@ -49,5 +49,6 @@
 
 <style lang="scss" scoped>
   @use '../styles/partials/styleHeader.scss' as *;
+  @use '../styles/partials/utilities.scss';
 
 </style>
