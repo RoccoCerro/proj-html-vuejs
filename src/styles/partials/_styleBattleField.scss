@@ -2,7 +2,7 @@
 
 .battle-field {
   width: 100%;
-  height: 755px;
+  height: 920px;
   background-color: black;
 
   .container, .row, img{
@@ -12,10 +12,56 @@
   .row.content {
     flex-direction: row-reverse;
     align-items: center;
-  }
 
-  .row.column {
-    flex-direction: column;
+    .text-battle-field {
+      h3 {
+        font-size: $font-size-h3;
+        color: $color-text-h3;
+      }
+
+      h1 {
+        font-size: 50px;
+        margin: 25px 0
+      }
+
+      p {
+        font-size: $font-size-p;
+        color: $color-text-p;
+        margin: 15px 0;
+      }
+
+      .button {
+        display: inline-block;
+        margin-top: 35px;
+
+        button {
+          width: 170px;
+        }
+      }
+    }
+
+    .row.column {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 40px;
+
+      .row.content-card {
+        gap: 25px;
+
+        .icon-card {
+          height: 80px;
+          aspect-ratio: 1/1;
+        }
+      }
+    }
+  
+    .img-battle-field {
+  
+      img {
+        width: 820px;
+        margin-left: -350px;
+      }
+    }
   }
 
 }
