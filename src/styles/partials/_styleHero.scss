@@ -78,9 +78,9 @@
   .img-hero {
 
     img{
+      display: block;
       object-fit: cover;
-      width: 855px;
-      margin-left: -45px;
+      height: 750px;
     }
   }
 
