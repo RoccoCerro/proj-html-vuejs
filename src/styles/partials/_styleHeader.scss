@@ -1,9 +1,9 @@
 @use './variables' as *;
 
 .page-header {
-  background-color: black;  
   color: white;
   height: 90px;
+  margin-bottom: -90px;
 
   .container, .row{
     height: 100%;

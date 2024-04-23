@@ -5,6 +5,9 @@
         <div class="col">
          
         </div>
+        <div class="col">
+
+        </div>
       </div>
     </div>
   </section>
@@ -17,5 +20,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @use '../styles/partials/styleHero.scss'
+  @use '../styles/partials/styleHero.scss';
+
 </style>
