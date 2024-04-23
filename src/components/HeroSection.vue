@@ -8,11 +8,11 @@
             <h1>Future Of Esports</h1>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
             <!-- Group button -->
-            <div class="group-button">
-              <div class="button">
+            <div class="row group-button">
+              <div class="col button">
                 <button>EXPLORE GAMES >></button>
               </div>
-              <div class="play-icon">
+              <div class="col play-button">
                 <button><img src="../assets/img/play-icon.png" alt=""></button>
               </div>
             </div>
