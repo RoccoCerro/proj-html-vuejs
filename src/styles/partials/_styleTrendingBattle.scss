@@ -37,4 +37,17 @@
 
     }
   }
+
+  .button-match {
+    text-align: center;
+    padding: 30px 0;
+
+    .button {
+    display: inline-block;
+    
+    button {
+      width: 220px;
+      }
+    }
+  }
 }

@@ -15,6 +15,12 @@
           </div>
         </div>
       </div>
+      <!-- Button -->
+      <div class="button-match">
+        <div class="button">
+          <button>VIEW ALL MATCH >></button>
+        </div>
+      </div>
     </div>
 
   </section>
@@ -38,5 +44,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @use '../styles/partials/styleTrendingBattle.scss'
+  @use '../styles/partials/styleTrendingBattle.scss';
+  @use '../styles/partials/utilities.scss';
 </style>
