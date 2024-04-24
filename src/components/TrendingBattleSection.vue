@@ -10,57 +10,8 @@
       <!-- Row Card -->
       <div class="match">
         <div class="row">
-          <div class="col-6">
-            <div class="card">
-              <div class="card-player">
-                <div class="row">
-                  <div class="col">
-                    <img src="../assets/img/game-img-1.png" alt="">
-                  </div>
-                  <div class="col"><img src="../assets/img/verus-icon.png" alt=""></div>
-                  <div class="col"><img src="../assets/img/game-img-2.png" alt=""></div>
-                </div>
-              </div>
-              <div class="match-date">
-                <h3>Call Of Deauty</h3>
-                <div>December 25, 2022 4:00 PM</div>
-              </div>
-              <div class="channels">
-                <div class="row">
-                  <img class="col" src="../assets/img/youtube-icon.png" alt="">
-                  <div class="col">Youtube</div>
-                  <img class="col" src="../assets/img/twitch-icon.png" alt="">
-                  <div class="col">Twitch</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="card">
-              <div class="card-player">
-
-              </div>
-              <div class="match-date"></div>
-              <div class="channels"></div>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="card">
-              <div class="card-player">
-
-              </div>
-              <div class="match-date"></div>
-              <div class="channels"></div>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="card">
-              <div class="card-player">
-
-              </div>
-              <div class="match-date"></div>
-              <div class="channels"></div>
-            </div>
+          <div v-for="match in store.meetings" class="col-6">
+            <CardTrendingBattle :match="match"/>
           </div>
         </div>
       </div>
@@ -70,8 +21,19 @@
 </template>
 
 <script>
+  import CardTrendingBattle from './CardTrendingBattle.vue';
+  import {store} from '../store.js';
+
   export default {
-    
+    data(){
+      return {
+        store
+      }
+    },
+
+    components:{
+      CardTrendingBattle
+    }
   }
 </script>
 
