@@ -1,0 +1,38 @@
+@use './variables' as *;
+
+.live-streaming {
+  height: 710px;
+  background-image: url('../assets/img/live-streaming-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .text-streaming {
+    text-align: center;
+    padding: 50px;
+
+    h3 {
+      color: $color-text-h3;
+      font-size: $font-size-h3;
+    }
+
+    h1 {
+      font-size: $font-size-h1;
+      padding: 20px 0;
+    }
+
+    p {
+      font-size: $font-size-p;
+      color: $color-text-p;
+    } 
+  }
+
+  .img-streaming {
+    text-align: center;
+
+    img {
+      height: 600px;
+      width: 1000px;
+      height: 100%;
+    }
+  }
+}
