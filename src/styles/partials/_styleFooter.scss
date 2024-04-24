@@ -1,0 +1,27 @@
+@use './variables' as *;
+
+.page-footer {
+  height: 500px;
+  background-color: $background-color-card_match;
+  padding: 100px ;
+
+
+  &.debug{
+
+    & .row:first-child{
+      gap: 10px;
+    }
+
+    .col-3{
+      background-color: aqua;
+      height: 20px;
+
+    }
+
+    .col-2 {
+      background-color: aquamarine;
+      height: 20px;
+
+    }
+  }
+}

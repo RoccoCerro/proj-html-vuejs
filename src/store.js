@@ -61,6 +61,51 @@ export const store = reactive({
     }
   ],
 
+  footer: [
+    {
+      name: 'Social',
+      p: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam at quibusdam dignissimos illo eligendi.',
+      icon1: '',
+      icon2: '',
+      icon3: '',
+      icon4: '',
+    },
+    {
+      name: 'Quick Links',
+      link1: 'Games',
+      link2: 'Latest Tournament',
+      link3: 'Shop',
+      link4: 'Blog',
+      link5: 'Contact',
+    },
+    {
+      name: 'Help',
+      link1: 'Faqs',
+      link2: 'Terms & Conditions',
+      link3: 'Privacy',
+    },
+    {
+      name: 'Follow Us',
+      link1: 'Facebook',
+      link2: 'Twitter',
+      link3: 'Instagram',
+      link4: 'Youtube',
+      link5: 'Github',
+    },
+    {
+      name: 'Contact',
+      address: {
+        
+        name: 'Location: ',
+        street: '4 Mayfield, Buckden, PE19 5SZ'
+      },
+      telephoneNumber: {
+        name: 'Phone: ',
+        number: '(302)555-0107'
+      }
+    }
+  ],
+
   getImagePath: function (img) {
     return new URL(`./assets/img/${img}`, import.meta.url).href
   }
