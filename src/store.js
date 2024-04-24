@@ -91,7 +91,7 @@ export const store = reactive({
     },
     {
       name: 'Follow Us',
-      links: ['Facebook','Twitter','Twitter','Instagram','Youtube','Github']
+      links: ['Facebook','Twitter','Instagram','Youtube','Github']
     }
   ],
 

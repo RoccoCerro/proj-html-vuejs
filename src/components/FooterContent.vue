@@ -1,19 +1,22 @@
 <template>
-  <footer class="page-footer debug">
+  <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col-3">
+          <!-- Img logo -->
           <div class="brand">
             <img :src="store.getImagePath(store.brandSrc)" alt="">
           </div>
           <p>{{ store.social.p }}</p>
-          <ul class="row">
-            <li v-for="icon in store.social.icons">
-              <font-awesome-icon :icon="['fab', icon]" class="fab fa" />
+          <!-- Icon brand of fontwsome  -->
+          <ul class="row icons">
+            <li class="col" v-for="icon in store.social.icons">
+              <font-awesome-icon :icon="['fab', icon]" class="fab fa icon" />
             </li>
           </ul>
         </div>
-        <div v-for="list in store.listOfLinks" class="col-2">
+        <!-- Quick links, help and follow -->
+        <div v-for="list in store.listOfLinks" class="col-2 quick-links">
           <h3>{{ list.name }}</h3>
           <ul>
             <li v-for="link in list.links">
@@ -21,23 +24,23 @@
             </li>
           </ul>
         </div>
-        <div class="col-2">
-
+        <!-- Contact -->
+        <div class="col-2 contact">
           <h3> {{ store.contact.name }} </h3>
           <ul>
             <li>
-              <div>
+              <div class="address-name">
                 {{ store.contact.address.name }}
               </div>
-              <div>
+              <div class="address-street">
                 {{ store.contact.address.street }}
               </div>
             </li>
             <li>
-              <div>
+              <div class="phone-name">
                 {{ store.contact.telephoneNumber.name }}
               </div>
-              <div>
+              <div class="phone-number">
                 {{ store.contact.telephoneNumber.number }}
               </div>
             </li>
@@ -50,6 +53,7 @@
 
 <script>
   import {store} from '../store.js'
+
   export default {
     data(){
       return {
