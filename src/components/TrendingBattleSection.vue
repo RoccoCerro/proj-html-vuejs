@@ -22,17 +22,15 @@
                 </div>
               </div>
               <div class="match-date">
-                <h4>Call Of Deauty</h4>
+                <h3>Call Of Deauty</h3>
                 <div>December 25, 2022 4:00 PM</div>
               </div>
-              <div class="row channels">
-                <div class="col">
-                  <img src="../assets/img/youtube-icon.png" alt="">
-                  <span>Youtube</span>
-                </div>
-                <div class="col">
-                  <img src="../assets/img/twitch-icon.png" alt="">
-                  <span>Twitch</span>
+              <div class="channels">
+                <div class="row">
+                  <img class="col" src="../assets/img/youtube-icon.png" alt="">
+                  <div class="col">Youtube</div>
+                  <img class="col" src="../assets/img/twitch-icon.png" alt="">
+                  <div class="col">Twitch</div>
                 </div>
               </div>
             </div>
