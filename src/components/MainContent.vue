@@ -3,6 +3,7 @@
     <HeroSection />
     <BattleFieldSection />
     <TrendingBattleSection />
+    <FutioSection />
   </main>
 </template>
 
@@ -10,12 +11,14 @@
   import HeroSection from './HeroSection.vue';
   import BattleFieldSection from './BattleFieldSection.vue';
   import TrendingBattleSection from './TrendingBattleSection.vue';
+  import FutioSection from './FutioSection.vue';
 
   export default {
     components: {
       HeroSection,
       BattleFieldSection,
-      TrendingBattleSection
+      TrendingBattleSection,
+      FutioSection
     }
   }
 </script>
