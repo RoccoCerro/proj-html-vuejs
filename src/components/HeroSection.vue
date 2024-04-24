@@ -17,7 +17,7 @@
               </div>
             </div>
           </div>
-          <div class="col-7 img-hero">
+          <div class="col img-hero">
             <img src="../assets/img/index-banner-illus.png" alt="">
           </div>
         </div>

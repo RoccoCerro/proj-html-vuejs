@@ -1,7 +1,7 @@
 @use './variables' as *;
 
 .page-footer {
-  height: 500px;
+  // height: 500px;
   background-color: $background-color-card_match;
   padding: 100px ;
 
@@ -42,6 +42,7 @@
       .icon {
         height: 25px;
         color: rgba(255, 255, 255, 0.582);
+        transform: translateY(1px);
       }
 
     }
@@ -75,5 +76,17 @@
         padding: 10px 0;
       }
     }
+  }
+}
+
+.copyright {
+  height: 70px;
+  background-color: #1B212D;
+  text-align: center;
+  line-height: 70px;
+
+  .futio{
+    color: $color-text-h3;
+
   }
 }
